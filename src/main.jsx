@@ -22,11 +22,11 @@ import VerifyEmail from "./layouts/dashboard/VerifyEmail";
 import Header from "./components/Header";
 import ResetPassword from "./pages/ResetPassword";
 
-export const baseURL = "http://localhost:3000/api";
+export const baseURL = "https://minicloud.onrender.com/api";
 
 const queryClient = new QueryClient();
 export const api = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://minicloud.onrender.com/api",
   withCredentials: true,
 });
 
